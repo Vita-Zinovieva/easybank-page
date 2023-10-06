@@ -1,0 +1,36 @@
+:root{
+  --white: #FFF;;
+  --section1: rgba(150, 152, 166, 0.07);
+  --why-bg: #F3F4F6;
+  --articles-bg: #FAFAFA;
+  --footer-bg:#2D314D;
+  --text-color:rgba(0, 0, 0, 0.28);
+  --title-color:rgba(0, 0, 0, 0.90);
+  --menu-text-color:rgba(0, 0, 0, 0.50);
+  --button2: linear-gradient(112deg, #31D35C 16.67%, #2BB7DA 83.05%);
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ font-family: 'Public Sans';
+}
+a{
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+section {
+  //margin-bottom: 60px;
+  @media screen and (width < 767px) {
+    //margin-bottom: 30px;
+  }
+}
